@@ -8,11 +8,3 @@ let total = 0;
 
 const media = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4]) / notas.length;
 console.log(media);
-
-for (pos in notas) {
-    let nota = notas[pos]
-    soma += nota 
-    total = notas.length
-}
-
-console.log(soma / total);
